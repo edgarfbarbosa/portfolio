@@ -1,4 +1,5 @@
 @import url(./header.css);
+@import url(./main.css);
 
 * {
   box-sizing: border-box;
@@ -7,8 +8,8 @@
 }
 
 :root {
-  --font-color: #39393A;
   --background-color: #E6E6E6;
+  --font-color: #39393A;
 }
 
 html, body {

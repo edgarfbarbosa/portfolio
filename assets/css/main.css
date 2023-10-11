@@ -1,0 +1,11 @@
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  list-style-type: none;
+}
+
+.skills--font {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+}

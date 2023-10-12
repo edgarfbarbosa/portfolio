@@ -33,4 +33,5 @@ html, body {
   display: flex;
   gap: .25rem;
   text-decoration: inherit;
+  width: min-content;
 }

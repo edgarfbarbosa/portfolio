@@ -27,3 +27,10 @@ html, body {
   max-width: 1280px;
   width: 50%;
 }
+
+.social__anchor--container {
+  color: inherit;
+  display: flex;
+  gap: .25rem;
+  text-decoration: inherit;
+}

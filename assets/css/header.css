@@ -1,4 +1,4 @@
-.list__container {
+.nav__container {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -8,12 +8,12 @@
   list-style-type: none;
 }
 
-.list__anchor {
+.nav__link {
   color: inherit;
   text-decoration: inherit;
 }
 
-.list__anchor--font {
+.nav__link--font {
   font-weight: 300;
   text-transform: lowercase;
 }

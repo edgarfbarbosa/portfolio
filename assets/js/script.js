@@ -1,19 +1,19 @@
-/** Seleciona todos os elementos com a classe 'nav__link'. */
-const navLinks = document.querySelectorAll('.nav__link')
+/** Seleciona todos os elementos com a classe 'menu__link'. */
+const menuLinks = document.querySelectorAll('.menu__link')
 
-/** Adiciona a classe 'nav__link--border' no primeiro elemento do array-like navLinks. */
-navLinks[0].classList.add('nav__link--border')
+/** Adiciona a classe 'menu__link--highlight' no primeiro elemento do array-like menuLinks. */
+menuLinks[0].classList.add('menu__link--highlight')
 
 /**
-* Manipula a classe 'nav__link--border' nos links dentro de 'navLinks'.
-* @param {number} i índice do elemento que recebe a classe 'nav__link--border'.
+* Manipula a classe 'menu__link--highlight' nos links dentro de 'menuLinks'.
+* @param {number} index índice do elemento que recebe a classe 'menu__link--highlight'.
 */
-function handleActiveLink(i) {
-  navLinks.forEach(link => link.classList.remove('nav__link--border'))
-  navLinks[i].classList.add('nav__link--border')
+function handleLinkHighlight(index) {
+  menuLinks.forEach(link => link.classList.remove('menu__link--highlight'))
+  menuLinks[index].classList.add('menu__link--highlight')
 }
 
-/** Adiciona um evento de 'mouseover' a cada link, chamando a função 'handleActiveLink(i)' ao passar o mouse por cima. */
-navLinks.forEach((link, i) => {
-  link.addEventListener('mouseover', () => {handleActiveLink(i)})
+/** Adiciona um evento de 'mouseover' a cada link, chamando a função 'handleLinkHighlight(index)' ao passar o mouse por cima. */
+menuLinks.forEach((link, index) => {
+  link.addEventListener('mouseover', () => {handleLinkHighlight(index)})
 })

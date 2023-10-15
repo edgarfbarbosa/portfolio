@@ -1,4 +1,4 @@
-.nav__container {
+.menu__container {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -8,26 +8,28 @@
   list-style-type: none;
 }
 
-.nav__link {
+.menu__link {
   color: inherit;
   text-decoration: inherit;
   padding: .25rem;
 }
 
-.nav__link--border {
-  animation: border 2s forwards;
+.menu__link--font {
+  font-weight: 300;
+  text-transform: lowercase;
 }
 
-@keyframes border {
+.menu__link--highlight {
+  animation: highlight .75s forwards;
+}
+
+@keyframes highlight {
   from {
+    font-weight: inherit;
     border-bottom: 1px solid rgba(15, 15, 15, 0);
   }
   to {
-    border-bottom: 1px solid rgba(15, 15, 15, 1);
+    font-weight: 400;
+    border-bottom: 1px solid rgba(15, 15, 15, .75);
   }
-}
-
-.nav__link--font {
-  font-weight: 300;
-  text-transform: lowercase;
 }

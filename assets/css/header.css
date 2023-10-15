@@ -11,6 +11,20 @@
 .nav__link {
   color: inherit;
   text-decoration: inherit;
+  padding: .25rem;
+}
+
+.nav__link--border {
+  animation: border 2s forwards;
+}
+
+@keyframes border {
+  from {
+    border-bottom: 1px solid rgba(15, 15, 15, 0);
+  }
+  to {
+    border-bottom: 1px solid rgba(15, 15, 15, 1);
+  }
 }
 
 .nav__link--font {

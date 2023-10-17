@@ -13,7 +13,7 @@ function handleLinkHighlight(index) {
   menuLinks[index].classList.add('menu__link--highlight')
 }
 
-/** Adiciona um evento de 'mouseover' a cada link, chamando a função 'handleLinkHighlight(index)' ao passar o mouse por cima. */
+/** Adiciona um evento de 'click' a cada link, chamando a função 'handleLinkHighlight(index)' ao passar o mouse por cima. */
 menuLinks.forEach((link, index) => {
-  link.addEventListener('mouseover', () => {handleLinkHighlight(index)})
+  link.addEventListener('click', () => {handleLinkHighlight(index)})
 })

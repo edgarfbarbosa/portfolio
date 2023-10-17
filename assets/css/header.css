@@ -1,17 +1,21 @@
-.menu__container {
+.menu {
   align-items: center;
   display: flex;
-  flex-direction: row;
   gap: 1rem;
   height: 10vh;
   justify-content: center;
+}
+
+.menu__container {
+  display: flex;
+  gap: .5rem;
   list-style-type: none;
 }
 
 .menu__link {
   color: inherit;
-  text-decoration: inherit;
-  padding: .25rem;
+  padding: .15rem;
+  text-decoration: none;
 }
 
 .menu__link--font {
@@ -30,6 +34,16 @@
   }
   to {
     font-weight: 400;
-    border-bottom: 1px solid rgba(15, 15, 15, .75);
+    border-bottom: 1px solid rgba(15, 15, 15, .45);
   }
+}
+
+.menu__icon {
+  color: inherit;
+  width: min-content;
+}
+
+.menu__button {
+  border: none;
+  cursor: pointer;
 }

@@ -25,13 +25,5 @@ html, body {
   gap: 1rem;
   margin: 0 auto;
   max-width: 1280px;
-  width: 50%;
-}
-
-.social__anchor--container {
-  color: inherit;
-  display: flex;
-  gap: .25rem;
-  text-decoration: inherit;
-  width: min-content;
+  width: 45%;
 }

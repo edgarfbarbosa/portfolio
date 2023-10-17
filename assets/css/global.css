@@ -19,7 +19,7 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
-.content__layout {
+.app {
   display: flex;
   flex-direction: column;
   gap: 1rem;

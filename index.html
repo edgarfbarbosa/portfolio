@@ -15,7 +15,7 @@
 <body>
   
   <div class="app">
-    <header>
+    <header class="menu">
       <nav>
         <ul class="menu__container">
           <li><a class="menu__link menu__link--font" href="#">Home</a></li>
@@ -24,6 +24,15 @@
           <li><a class="menu__link menu__link--font" href="#">Contato</a></li>
         </ul>
       </nav>
+      
+      <div class="menu__container">
+        <a href="https://github.com/edgarfbarbosa" target="_blank" class="menu__icon" title="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <button title="Mudar para o modo escuro" class="menu__button">
+          <i data-lucide="moon"></i>
+        </button>
+      </div>
     </header>
     
     <main>
@@ -50,12 +59,7 @@
       </section>
     </main>
     
-    <footer>
-      <a href="#" target="_blank" class="social__anchor--container">
-        <i data-lucide="github"></i>
-        <span>edgarfbarbosa</span>
-      </a>
-    </footer>
+    <footer></footer>
   </div>
   
   <script src="https://unpkg.com/lucide@latest"></script>

@@ -1,18 +1,37 @@
 .about-me__container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  height: 75vh;
+  gap: 3rem;
+  height: 80vh;
+  margin: 1rem auto;
 }
 
-.skills__container {
+.about-me__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-me__phrase {
+  font-weight: 300;
+  margin: 1rem auto;
+}
+
+.about-me__highlight {
+  font-weight: 600;
+}
+
+.about-me__skills {
   display: flex;
-  flex-direction: row;
-  gap: .5rem;
+  gap: .125rem;
   list-style-type: none;
 }
 
-.skills--font {
-  font-family: 'JetBrains Mono', monospace;
+.about-me__skill {
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.about-me__skill:not(:last-of-type)::after {
+  content: ",";
   font-weight: 300;
 }

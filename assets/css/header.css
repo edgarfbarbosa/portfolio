@@ -1,49 +1,51 @@
-.menu {
+header {
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   height: 10vh;
   justify-content: center;
 }
 
 .menu__container {
   display: flex;
-  gap: .5rem;
+  gap: .75rem;
   list-style-type: none;
 }
 
 .menu__link {
   color: inherit;
-  padding: .15rem;
+  font-weight: 300;
   text-decoration: none;
 }
 
-.menu__link--font {
-  font-weight: 300;
-  text-transform: lowercase;
-}
-
 .menu__link--highlight {
-  animation: highlight .75s forwards;
+  animation: highlight 0s forwards;
 }
 
 @keyframes highlight {
   from {
-    font-weight: inherit;
-    border-bottom: 1px solid rgba(15, 15, 15, 0);
+    color: inherit;
   }
   to {
-    font-weight: 400;
-    border-bottom: 1px solid rgba(15, 15, 15, .45);
+    color: var(--highlight-color);
   }
 }
 
-.menu__icon {
+.menu__github {
   color: inherit;
-  width: min-content;
 }
 
-.menu__button {
+.menu__github:hover {
+  color: var(--highlight-color);
+}
+
+.menu__btn-tema {
+  background: transparent;
   border: none;
+  color: inherit;
   cursor: pointer;
+}
+
+.menu__btn-tema:hover {
+  color: var(--highlight-color);
 }

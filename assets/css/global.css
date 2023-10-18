@@ -8,8 +8,9 @@
 }
 
 :root {
-  --background-color: #F5F5F5;
-  --font-color: #0F0F0F;
+  --background-color: #E0E0E0;
+  --font-color: #1F1F1F;
+  --highlight-color: #2D649F;
 }
 
 html, body {

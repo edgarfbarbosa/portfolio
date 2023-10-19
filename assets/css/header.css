@@ -39,13 +39,13 @@ header {
   color: var(--highlight-color);
 }
 
-.menu__btn-tema {
+.menu__btn-theme {
   background: transparent;
   border: none;
   color: inherit;
   cursor: pointer;
 }
 
-.menu__btn-tema:hover {
+.menu__btn-theme:hover {
   color: var(--highlight-color);
 }

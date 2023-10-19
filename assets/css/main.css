@@ -22,7 +22,7 @@
 
 .about-me__skills {
   display: flex;
-  gap: .125rem;
+  gap: .25rem;
   list-style-type: none;
 }
 

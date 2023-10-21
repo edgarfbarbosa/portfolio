@@ -15,11 +15,12 @@
 <body>
   
   <div class="app">
+    
     <header>
       
       <nav>
         <ul class="menu__container">
-          <li><a class="menu__link" href="#">Home</a></li>
+          <li><a class="menu__link" href="#home">Home</a></li>
           <li><a class="menu__link" href="#">Posts</a></li>
           <li><a class="menu__link" href="#">Projetos</a></li>
           <li><a class="menu__link" href="#">Contato</a></li>
@@ -27,7 +28,6 @@
       </nav>
       
       <div class="menu__container">
-        
         <a href="https://github.com/edgarfbarbosa" target="_blank" class="menu__github" title="GitHub">
           <i data-lucide="github" stroke-width="1.5px"></i>
         </a>
@@ -35,15 +35,13 @@
         <button title="Mudar para o modo escuro" class="menu__btn-theme">
           <i data-lucide="sun-moon" stroke-width="1.5px"></i>
         </button>
-        
       </div>
       
     </header>
     
     <main>
       
-      <section class="about-me__container">
-        
+      <section class="about-me__container" id="home">
         <div>
           <h1 class="about-me__title">Sobre mim</h1>
           <p class="about-me__phrase">Sou <b class="about-me__highlight">Desenvolvedor Front-end</b> e estudante de <b class="about-me__highlight">Engenharia de Software</b>, moro atualmente na Região Serrana do Rio de Janeiro.</p>
@@ -63,12 +61,12 @@
             <i data-lucide="linkedin" stroke-width="1px" width="36" height="36"></i>
           </a>
         </div>
-        
       </section>
       
     </main>
     
     <footer></footer>
+
   </div>
   
   <script src="https://unpkg.com/lucide@latest"></script>

@@ -35,3 +35,11 @@
   content: ",";
   font-weight: 300;
 }
+
+.about-me__linkedin {
+  color: inherit;
+}
+
+.about-me__linkedin:hover {
+  color: var(--highlight-color);
+}

@@ -1,0 +1,36 @@
+.posts__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 80vh;
+  margin: 1rem auto;
+}
+
+.posts__title {
+  -webkit-text-stroke-color: var(--font-color);
+  -webkit-text-stroke-width: 2px;
+  color: var(--background-color);
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.posts__links {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: .25rem;
+  list-style-type: none;
+}
+
+.posts__link {
+  color: inherit;
+  font-weight: 300;
+  text-decoration: underline var(--highlight-color);
+}
+
+.posts__link:hover {
+  color: var(--highlight-color);
+}
+
+.posts__link::after {
+  content: ";";
+}

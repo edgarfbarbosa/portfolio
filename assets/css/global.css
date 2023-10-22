@@ -1,5 +1,6 @@
 @import url(./menu.css);
 @import url(./about.css);
+@import url(./posts.css);
 
 * {
   box-sizing: border-box;

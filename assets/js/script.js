@@ -22,3 +22,37 @@ function initMenuAnimation()
 }
 
 initMenuAnimation()
+
+function setupMenuNav()
+{
+  /** Seleciona todos os elementos com a classe 'menu__link'. */
+  const menuLinks = document.querySelectorAll('.menu__link')
+  /** Seleciona todos os elementos com a classe 'section__container'. */
+  const sections = document.querySelectorAll('.section__container')
+  
+  /** Adiciona a classe 'section--show' no primeiro elemento do array sections. */
+  sections[0].classList.add('section--show')
+  
+  /**
+  * A função handleShowSection é responsável por manipular a classe 'section--show' dentro das seções.
+  * @param {number} i índice do elemento que recebe a classe 'section--show'.
+  */
+  function handleShowSection(i) {
+    /** forEach utilizado para remover a classe 'section--show' de cada seção. */
+    sections.forEach( section => section.classList.remove('section--show'))
+    sections[i].classList.add('section--show')
+  }
+  
+  /** forEach utilizado para receber o index de cada link. */
+  menuLinks.forEach((link, index) => {
+    /**
+    * Adiciona um evento de 'click' a cada link no menu de navegação.
+    * Quando um link é clicado, a função handleShowSection é chamada com
+    * o índice do link como argumento.
+    * @param {number} index índice do link que foi clicado.
+    */
+    link.addEventListener('click', () => handleShowSection(index))
+  })
+}
+
+setupMenuNav()

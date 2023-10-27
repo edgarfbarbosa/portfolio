@@ -12,6 +12,7 @@
   --background-color: #F5F5F5;
   --font-color: #0A0A0A;
   --highlight-color: #EB5E28;
+  --icon-color: rgba(10, 10, 10, .7);
 }
 
 html, body {

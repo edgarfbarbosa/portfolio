@@ -1,0 +1,17 @@
+.footer__container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  max-height: 10vh;
+}
+
+.footer__copy {
+  font-size: 1.125rem;
+  font-weight: 300;
+  user-select: none;
+}
+
+.footer__author {
+  font-size: .875rem;
+  font-weight: 300;
+}

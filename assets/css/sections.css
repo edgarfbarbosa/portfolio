@@ -1,0 +1,11 @@
+.section__container {
+  display: none;
+  flex-direction: column;
+  gap: 3rem;
+  height: 70vh;
+  padding: 2rem 0;
+}
+
+.section--show {
+  display: flex;
+}

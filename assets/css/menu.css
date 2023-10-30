@@ -1,13 +1,13 @@
 header {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
-  height: 10vh;
+  height: 15vh;
   justify-content: space-between;
 }
 
 .menu__container {
   display: flex;
-  gap: .75rem;
+  gap: 1rem;
   list-style-type: none;
 }
 
@@ -15,28 +15,22 @@ header {
   color: inherit;
   font-weight: 300;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
+/*
 .menu__link--highlight {
   animation: highlight 0s forwards;
 }
-
-@keyframes highlight {
-  from {
-    color: inherit;
-  }
-  to {
-    color: var(--highlight-color);
-  }
-}
+*/
 
 .menu__icon {
   color: var(--icon-color);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .menu__icon:hover {
-  color: var(--highlight-color);
+  color: var(--font-color);
 }
 
 .menu__btn-theme {
@@ -44,9 +38,21 @@ header {
   border: none;
   color: var(--icon-color);
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .menu__btn-theme:hover {
-  color: var(--highlight-color);
+  color: var(--font-color);
 }
+
+/*
+@keyframes highlight {
+  from {
+    color: inherit;
+  }
+  
+  to {
+    color: var(--highlight-color);
+  }
+}
+*/

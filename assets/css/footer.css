@@ -1,7 +1,7 @@
 .footer__container {
   align-items: flex-start;
   display: flex;
-  height: 15vh;
+  height: 10vh;
   justify-content: space-between;
 }
 

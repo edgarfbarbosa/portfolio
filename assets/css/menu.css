@@ -1,19 +1,19 @@
 header {
   align-items: flex-end;
   display: flex;
-  height: 10vh;
+  height: 15vh;
   justify-content: space-between;
 }
 
 .menu__container {
   display: flex;
-  gap: 1rem;
+  gap: .875rem;
   list-style-type: none;
 }
 
 .menu__link {
   color: inherit;
-  font-weight: 300;
+  font: 300 italic 1.375rem var(--font-jost);
   text-decoration: none;
   text-transform: lowercase;
 }
@@ -25,24 +25,24 @@ header {
 */
 
 .menu__icon {
-  color: var(--icon-color);
+  color: var(--color-icon);
   font-size: 1.125rem;
 }
 
 .menu__icon:hover {
-  color: var(--font-color);
+  color: var(--color-font);
 }
 
 .menu__btn-theme {
   background: transparent;
   border: none;
-  color: var(--icon-color);
+  color: var(--color-icon);
   cursor: pointer;
   font-size: 1.125rem;
 }
 
 .menu__btn-theme:hover {
-  color: var(--font-color);
+  color: var(--color-font);
 }
 
 /*
@@ -52,7 +52,7 @@ header {
   }
   
   to {
-    color: var(--highlight-color);
+    color: var(--color-highlight);
   }
 }
 */

@@ -11,17 +11,20 @@
 }
 
 :root {
-  --background-color: #F5F5F5;
-  --font-color: #1B1B1B;
-  --highlight-color: #EB5E28;
-  --icon-color: rgba(27, 27, 27, .5);
+  --color-bg: #F5F5F5;
+  --color-font: #0A0A0A;
+  --color-highlight: #EB5E28;
+  --color-icon: rgba(27, 27, 27, .5);
+  --font-ibm: 'IBM Plex Mono', monospace;
+  --font-jost: 'Jost', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
 }
 
 html, body {
   -webkit-font-smooth: antialiased;
-  background-color: var(--background-color);
-  color: var(--font-color);
-  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-font);
+  font-family: var(--font-poppins);
 }
 
 .app {

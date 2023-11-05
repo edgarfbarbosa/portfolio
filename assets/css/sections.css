@@ -1,7 +1,6 @@
 .section__container {
   display: none;
   flex-direction: column;
-  gap: 3rem;
   height: 80vh;
   padding: 2rem 0;
 }

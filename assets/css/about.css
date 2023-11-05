@@ -5,7 +5,7 @@
 
 .about-me__phrase {
   font-weight: 300;
-  margin: 1rem auto;
+  margin-top: 1rem;
 }
 
 .about-me__highlight {
@@ -14,16 +14,15 @@
 
 .about-me__skills {
   display: flex;
-  gap: .25rem;
+  gap: .125rem;
   list-style-type: none;
 }
 
 .about-me__skill {
-  font-family: inherit;
-  font-weight: 600;
+  font: 400 1rem var(--font-ibm);
 }
 
 .about-me__skill:not(:last-of-type)::after {
-  content: ",";
+  content: "|";
   font-weight: 300;
 }

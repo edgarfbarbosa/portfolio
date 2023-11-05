@@ -1,17 +1,15 @@
 .footer__container {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
-  height: 10vh;
+  height: 5vh;
   justify-content: space-between;
 }
 
 .footer__copy {
-  font-size: .875rem;
-  font-weight: 300;
+  font: 300 .875rem var(--font-jost);
   user-select: none;
 }
 
 .footer__author {
-  font-size: .875rem;
-  font-weight: 300;
+  font: 300 1rem var(--font-jost);
 }

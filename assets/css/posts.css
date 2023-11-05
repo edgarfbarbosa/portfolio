@@ -1,9 +1,6 @@
 .posts__title {
-  -webkit-text-stroke-color: var(--font-color);
-  -webkit-text-stroke-width: 2px;
-  color: var(--background-color);
-  font-size: 3.5rem;
-  font-weight: 700;
+  color: inherit;
+  font: 700 3.5rem var(--font-poppins);
 }
 
 .posts__links {
@@ -16,11 +13,11 @@
 .posts__link {
   color: inherit;
   font-weight: 300;
-  text-decoration: underline var(--highlight-color);
+  text-decoration: underline var(--color-highlight);
 }
 
 .posts__link:hover {
-  color: var(--highlight-color);
+  color: var(--color-highlight);
 }
 
 .posts__link::after {

@@ -8,17 +8,32 @@
   flex-direction: column-reverse;
   gap: .25rem;
   list-style-type: none;
+  margin: 1rem auto;
+}
+
+.posts__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .posts__link {
   color: inherit;
-  font-weight: 300;
-  text-decoration: underline var(--color-highlight);
+  font: 300 1rem var(--font-poppins);
+  text-decoration: none;
 }
 
+.posts__date {
+  font: 300 1rem var(--font-poppins);
+  opacity: 75%;
+  user-select: none;
+}
+
+/*
 .posts__link:hover {
   color: var(--color-highlight);
 }
+*/
 
 .posts__link::after {
   content: ";";

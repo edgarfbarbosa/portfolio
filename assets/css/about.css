@@ -14,15 +14,16 @@
 
 .about-me__skills {
   display: flex;
-  gap: .125rem;
+  gap: .250rem;
   list-style-type: none;
+  margin-top: .125rem;
 }
 
 .about-me__skill {
-  font: 400 1rem var(--font-ibm);
+  font: 300 1rem var(--font-poppins);
 }
 
 .about-me__skill:not(:last-of-type)::after {
-  content: "|";
+  content: ",";
   font-weight: 300;
 }

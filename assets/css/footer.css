@@ -2,14 +2,9 @@
   align-items: center;
   display: flex;
   height: 15vh;
-  justify-content: space-between;
-}
-
-.footer__copy {
-  font: 300 .875rem var(--font-poppins);
-  user-select: none;
+  justify-content: flex-end;
 }
 
 .footer__author {
-  font: 300 .875rem var(--font-poppins);
+  font: 400 .875rem var(--font-space);
 }

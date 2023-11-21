@@ -1,10 +1,5 @@
-.about-me__title {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
 .about-me__phrase {
-  font-weight: 300;
+  font: 400 1rem var(--font-jost);
   margin-top: 1rem;
 }
 
@@ -20,10 +15,10 @@
 }
 
 .about-me__skill {
-  font: 300 1rem var(--font-poppins);
+  font: 400 1rem var(--font-jost);
 }
 
 .about-me__skill:not(:last-of-type)::after {
   content: ",";
-  font-weight: 300;
+  font-weight: 400;
 }

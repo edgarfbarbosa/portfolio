@@ -14,7 +14,7 @@ header {
 
 .menu__link {
   color: inherit;
-  font: 300 1.125rem var(--font-jost);
+  font: 400 1rem var(--font-space);
   text-decoration: none;
   text-transform: lowercase;
 }

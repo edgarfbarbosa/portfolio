@@ -15,9 +15,8 @@
   --color-font: #141414;
   --color-highlight: #EB5E28;
   --color-icon: rgba(27, 27, 27, .5);
-  --font-ibm: 'IBM Plex Mono', monospace;
   --font-jost: 'Jost', sans-serif;
-  --font-poppins: 'Poppins', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
 }
 
 html, body {

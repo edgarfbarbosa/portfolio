@@ -1,0 +1,35 @@
+.form__fieldset {
+  border: none;
+  display: grid;
+  gap: 1.625rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem auto;
+}
+
+.form__input {
+  background-color: transparent;
+  border: none;
+  color: var(--color-font);
+  font: 400 1rem var(--font-jost);
+  outline: none;
+  width: 100%;
+}
+
+.form__textarea {
+  background-color: transparent;
+  border: none;
+  color: var(--color-font);
+  font: 400 1rem var(--font-jost);
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+.form__btn {
+  background-color: var(--color-font);
+  border: none;
+  color: var(--color-bg);
+  cursor: pointer;
+  font: 400 1rem var(--font-jost);
+  padding: 1rem 2.125rem;
+}

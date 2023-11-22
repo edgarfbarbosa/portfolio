@@ -112,19 +112,25 @@
       <section class="section__container" id="contato">
         
         <div>
+          <p class="about-me__phrase">
+            Se você desejar, fique à vontade para entrar em contato comigo.
+          </p>
+        </div>
+        
+        <div>
           
           <form action="#">
             
             <div>
               
-              <fieldset>
+              <fieldset class="form__fieldset">
                 
                 <label>
-                  <input type="text" placeholder="Seu nome" required>
+                  <input type="text" placeholder="Nome" class="form__input" required>
                 </label>
                 
                 <label>
-                  <input type="text" placeholder="seu@email.com" required>
+                  <input type="text" placeholder="Email" class="form__input" required>
                 </label>
                 
               </fieldset>
@@ -132,13 +138,13 @@
               <div>
                 
                 <label>
-                  <textarea placeholder="Sua mensagem..." required></textarea>
+                  <textarea placeholder="Mensagem" rows="12" class="form__textarea" required></textarea>
                 </label>
                 
               </div>
               
               <div>
-                <button type="submit" title="Envie seu e-mail...">Enviar</button>
+                <button type="submit" title="Envie sua mensagem" class="form__btn">Envie sua mensagem</button>
               </div>
               
             </div>

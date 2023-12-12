@@ -1,12 +1,3 @@
-.about-me__phrase {
-  font: 400 1rem var(--font-jost);
-  margin-top: 1rem;
-}
-
-.about-me__highlight {
-  font-weight: 600;
-}
-
 .about-me__skills {
   display: flex;
   gap: .250rem;
@@ -20,5 +11,4 @@
 
 .about-me__skill:not(:last-of-type)::after {
   content: ",";
-  font-weight: 400;
 }

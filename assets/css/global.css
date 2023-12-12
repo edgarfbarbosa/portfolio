@@ -36,3 +36,12 @@ html, body {
   max-width: 1280px;
   width: 40%;
 }
+
+.phrase {
+  font: 400 1rem var(--font-jost);
+  margin-top: 1rem;
+}
+
+.phrase--highlight {
+  font-weight: 600;
+}

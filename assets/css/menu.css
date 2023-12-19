@@ -16,8 +16,27 @@ header {
 .menu__link {
   color: inherit;
   font: 400 1rem var(--font-space);
+  position: relative;
   text-decoration: none;
   text-transform: lowercase;
+  z-index: 1;
+}
+
+.menu__link::before {
+  background-color: hsla(17, 83%, 54%, 1);
+  bottom: 3px;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  z-index:-1;
+}
+
+.menu__link:hover::before {
+  bottom: 0;
+  height: 100%;
 }
 
 .menu__btn-theme {

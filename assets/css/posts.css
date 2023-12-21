@@ -1,24 +1,44 @@
 .posts__links {
   display: flex;
   flex-direction: column-reverse;
-  gap: .25rem;
-  list-style-type: none;
+  gap: .250rem;
+  list-style: none;
   margin: 1rem auto;
 }
 
 .posts__container {
-  align-items: center;
+  align-items: flex-end;
+  border-radius: 4px;
+  border: solid thin var(--color-silver);
   display: flex;
   justify-content: space-between;
-}
-
-.posts__link {
-  color: inherit;
-  font: 400 1rem var(--font-space);
+  padding: 1.250rem 1rem;
   text-decoration: none;
 }
 
-.posts__date {
+.posts__container:hover {
+  border-color: var(--color-highlight);
+}
+
+.post__title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post__title {
+  color: var(--color-font);
+  font: 500 1.125rem var(--font-space);
+  margin-bottom: 1rem;
+}
+
+.post__description {
+  color: var(--color-font);
   font: 400 1rem var(--font-space);
+}
+
+.post__date {
+  color: var(--color-font);
+  font: 300 1rem var(--font-space);
   user-select: none;
 }

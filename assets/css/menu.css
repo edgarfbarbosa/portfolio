@@ -1,4 +1,4 @@
-header {
+.menu__container {
   align-items: flex-end;
   display: flex;
   gap: .875rem;
@@ -6,7 +6,7 @@ header {
   justify-content: flex-start;
 }
 
-.menu__container {
+.menu__links-container {
   align-items: baseline;
   display: flex;
   gap: .875rem;

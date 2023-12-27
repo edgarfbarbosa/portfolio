@@ -26,10 +26,23 @@
 }
 
 .form__btn {
-  background-color: var(--color-font);
-  border: none;
-  color: var(--color-bg);
+  border: thin solid var(--color-font);
   cursor: pointer;
+  margin-left: 1rem;
+}
+
+.form__btn-span {
+  background-color: var(--color-font);
+  bottom: 4px;
+  color: var(--color-bg);
+  display: block;
   font: 400 1rem var(--font-jost);
-  padding: 1rem 2.125rem;
+  padding: .875rem 2.125rem;
+  position: relative;
+  right: 4px;
+}
+
+.form__btn:active .form__btn-span {
+  border: none;
+  transform: translate(4px, 4px);
 }

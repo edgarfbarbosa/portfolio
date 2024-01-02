@@ -16,15 +16,22 @@
   --color-font: #141414;
   --color-highlight: #EB5E28;
   --color-silver: #C0C0C0;
-  --font-jost: 'Jost', sans-serif;
-  --font-space: 'Space Grotesk', sans-serif;
+  --font-mona: 'Mona Sans';
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+  url('../fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+  url('../fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
 }
 
 html, body {
-  -webkit-font-smooth: antialiased;
   background-color: var(--color-bg);
   color: var(--color-font);
-  font-family: var(--font-jost);
+  font-family: 'Mona Sans';
 }
 
 .app {
@@ -37,7 +44,7 @@ html, body {
 }
 
 .phrase {
-  font: 400 1rem var(--font-jost);
+  font: 400 1rem var(--font-mona);
   margin-top: 1rem;
 }
 

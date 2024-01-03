@@ -7,10 +7,10 @@
 }
 
 .posts__container {
-  align-items: flex-end;
   border-radius: 4px;
   border: solid thin var(--color-silver);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 1.250rem 1rem;
   text-decoration: none;
@@ -20,25 +20,13 @@
   border-color: var(--color-highlight);
 }
 
-.post__title-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .post__title {
   color: var(--color-font);
-  font: 500 1.125rem var(--font-space);
+  font: semi-condensed 600 1.250rem var(--font-mona);
   margin-bottom: 1rem;
 }
 
 .post__description {
   color: var(--color-font);
-  font: 400 1rem var(--font-space);
-}
-
-.post__date {
-  color: var(--color-font);
-  font: 300 1rem var(--font-space);
-  user-select: none;
+  font: normal 400 1rem var(--font-mona);
 }

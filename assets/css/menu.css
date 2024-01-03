@@ -15,7 +15,7 @@
 
 .menu__link {
   color: inherit;
-  font: 400 1rem var(--font-space);
+  font: semi-condensed 600 1.125rem var(--font-mona);
   position: relative;
   text-decoration: none;
   text-transform: lowercase;
@@ -23,20 +23,22 @@
 }
 
 .menu__link::before {
-  background-color: hsla(17, 83%, 54%, 1);
-  bottom: 3px;
+  background-color: hsla(0, 0%, 75%, 1);
+  bottom: 0;
   content: "";
-  height: 4px;
+  height: 8px;
   left: 0;
   position: absolute;
-  transition: all .3s ease-in-out;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
   width: 100%;
-  z-index:-1;
+  z-index: -1;
 }
 
 .menu__link:hover::before {
-  bottom: 0;
-  height: 100%;
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .menu__btn-theme {

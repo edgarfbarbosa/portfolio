@@ -10,7 +10,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: 400 1rem var(--font-jost);
+  font: normal 400 1rem var(--font-mona);
   outline: none;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: 400 1rem var(--font-jost);
+  font: normal 400 1rem var(--font-mona);
   outline: none;
   resize: none;
   width: 100%;
@@ -28,7 +28,7 @@
 .form__btn {
   border: thin solid var(--color-font);
   cursor: pointer;
-  margin-left: 1rem;
+  margin-left: .875rem;
 }
 
 .form__btn-span {
@@ -36,7 +36,7 @@
   bottom: 4px;
   color: var(--color-bg);
   display: block;
-  font: 400 1rem var(--font-jost);
+  font: semi-condensed 600 1rem var(--font-mona);
   padding: .875rem 2.125rem;
   position: relative;
   right: 4px;

@@ -44,7 +44,7 @@ html, body {
 }
 
 .phrase {
-  font: 400 1rem var(--font-mona);
+  font: normal 400 1rem var(--font-mona);
   margin-top: 1rem;
 }
 

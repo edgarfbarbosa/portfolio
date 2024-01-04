@@ -13,17 +13,17 @@
 
 :root {
   --color-bg: #F5F5F5;
+  --color-blue: #5DA3D5;
   --color-font: #141414;
-  --color-highlight: #EB5E28;
   --color-silver: #C0C0C0;
-  --font-mona: 'Mona Sans';
+  --font-hubot: 'Hubot Sans';
 }
 
 @font-face {
-  font-family: 'Mona Sans';
+  font-family: 'Hubot Sans';
   src:
-  url('../fonts/Mona-Sans.woff2') format('woff2 supports variations'),
-  url('../fonts/Mona-Sans.woff2') format('woff2-variations');
+  url('../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
+  url('../fonts/Hubot-Sans.woff2') format('woff2-variations');
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
@@ -31,7 +31,6 @@
 html, body {
   background-color: var(--color-bg);
   color: var(--color-font);
-  font-family: 'Mona Sans';
 }
 
 .app {
@@ -44,10 +43,6 @@ html, body {
 }
 
 .phrase {
-  font: normal 400 1rem var(--font-mona);
+  font: normal 400 1rem var(--font-hubot);
   margin-top: 1rem;
-}
-
-.phrase--highlight {
-  font-weight: 600;
 }

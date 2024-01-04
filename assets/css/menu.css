@@ -15,7 +15,7 @@
 
 .menu__link {
   color: inherit;
-  font: semi-condensed 600 1.125rem var(--font-mona);
+  font: semi-condensed 500 1.125rem var(--font-hubot);
   position: relative;
   text-decoration: none;
   text-transform: lowercase;
@@ -23,7 +23,7 @@
 }
 
 .menu__link::before {
-  background-color: hsla(0, 0%, 75%, 1);
+  background-color: hsla(205, 59%, 60%, 1);
   bottom: 0;
   content: "";
   height: 8px;

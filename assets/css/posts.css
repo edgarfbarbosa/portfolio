@@ -17,16 +17,16 @@
 }
 
 .posts__container:hover {
-  border-color: var(--color-highlight);
+  border-color: var(--color-blue);
 }
 
 .post__title {
   color: var(--color-font);
-  font: semi-condensed 600 1.250rem var(--font-mona);
+  font: semi-condensed 600 1.250rem var(--font-hubot);
   margin-bottom: 1rem;
 }
 
 .post__description {
   color: var(--color-font);
-  font: normal 400 1rem var(--font-mona);
+  font: normal 400 1rem var(--font-hubot);
 }

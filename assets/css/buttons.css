@@ -1,0 +1,22 @@
+.btn {
+  border: thin solid var(--color-font);
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn__span {
+  background-color: var(--color-font);
+  bottom: 4px;
+  color: var(--color-bg);
+  display: block;
+  font: normal 400 1rem var(--font-hubot);
+  padding: .875rem 2.125rem;
+  position: relative;
+  right: 4px;
+}
+
+.btn:active .btn__span {
+  border: none;
+  transform: translate(4px, 4px);
+}

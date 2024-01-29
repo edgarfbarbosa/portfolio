@@ -1,9 +1,8 @@
 @import url(./menu.css);
 @import url(./sections.css);
-@import url(./about.css);
 @import url(./posts.css);
-@import url(./footer.css);
 @import url(./form.css);
+@import url(./buttons.css);
 
 * {
   box-sizing: border-box;
@@ -44,5 +43,4 @@ html, body {
 
 .phrase {
   font: normal 400 1rem var(--font-hubot);
-  margin-top: 1rem;
 }

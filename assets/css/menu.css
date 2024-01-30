@@ -19,21 +19,26 @@
   position: relative;
   text-decoration: none;
   text-transform: lowercase;
-  z-index: 1;
+}
+
+.menu__link::after {
+  background-color: hsla(0, 0%, 75%, 1);
+  content: "";
+  display: block;
+  height: 2px;
 }
 
 .menu__link::before {
-  background-color: hsla(205, 59%, 60%, 1);
+  background-color: var(--color-font);
   bottom: 0;
   content: "";
-  height: 8px;
+  height: 2px;
   left: 0;
   position: absolute;
   transform-origin: right;
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
   width: 100%;
-  z-index: -1;
 }
 
 .menu__link:hover::before {

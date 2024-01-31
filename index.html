@@ -20,9 +20,9 @@
       
       <nav>
         <ul class="menu__links-container">
-          <li><a class="menu__link" href="#home">Home</a></li>
-          <li><a class="menu__link" href="#posts">Posts</a></li>
-          <li><a class="menu__link" href="#contato">Contato</a></li>
+          <li><a data-menu-link class="menu__link" href="#home">Home</a></li>
+          <li><a data-menu-link class="menu__link" href="#posts">Posts</a></li>
+          <li><a data-menu-link class="menu__link" href="#contato">Contato</a></li>
           <li>
             <button class="menu__btn-theme" title="Mudar para o modo escuro">
               <i class="bi-moon-stars"></i>
@@ -35,7 +35,7 @@
     
     <main>
       
-      <section class="section__container" id="home">
+      <section data-section class="section__container" id="home">
         
         <p class="phrase">
           Seja qual for a razão pela qual você está aqui, seja bem-vindo!
@@ -84,7 +84,7 @@
         
       </section>
       
-      <section class="section__container" id="posts">
+      <section data-section class="section__container" id="posts">
         
         <article>
           
@@ -103,7 +103,7 @@
         
       </section>
       
-      <section class="section__container" id="contato">
+      <section data-section class="section__container" id="contato">
         
         <p class="phrase">
           Se desejar, fique à vontade para entrar em contato comigo.
@@ -146,7 +146,7 @@
     
   </div>
   
-  <script src="./assets/js/script.js"></script>
+  <script type="module" src="./assets/js/script.js"></script>
   
 </body>
 </html>

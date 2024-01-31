@@ -46,6 +46,13 @@
   transform: scaleX(1);
 }
 
+.menu__link--active::after {
+  background-color: var(--color-font);
+  content: "";
+  display: block;
+  height: 2px;
+}
+
 .menu__btn-theme {
   background: transparent;
   border: none;

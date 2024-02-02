@@ -15,16 +15,7 @@
   --color-blue: #5DA3D5;
   --color-font: #141414;
   --color-silver: #C0C0C0;
-  --font-hubot: 'Hubot Sans';
-}
-
-@font-face {
-  font-family: 'Hubot Sans';
-  src:
-  url('../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
-  url('../fonts/Hubot-Sans.woff2') format('woff2-variations');
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  --font-inter: 'Inter', sans-serif;
 }
 
 html, body {
@@ -42,5 +33,5 @@ html, body {
 }
 
 .phrase {
-  font: normal 400 1rem var(--font-hubot);
+  font: 400 1rem var(--font-inter);
 }

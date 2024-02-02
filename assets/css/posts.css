@@ -22,11 +22,11 @@
 
 .post__title {
   color: var(--color-font);
-  font: semi-condensed 600 1.250rem var(--font-hubot);
+  font: 500 1.250rem var(--font-inter);
   margin-bottom: 1rem;
 }
 
 .post__description {
   color: var(--color-font);
-  font: normal 400 1rem var(--font-hubot);
+  font: normal 400 1rem var(--font-inter);
 }

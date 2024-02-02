@@ -10,7 +10,7 @@
   bottom: 4px;
   color: var(--color-bg);
   display: block;
-  font: normal 400 1rem var(--font-hubot);
+  font: 400 1rem var(--font-inter);
   padding: .875rem 2.125rem;
   position: relative;
   right: 4px;

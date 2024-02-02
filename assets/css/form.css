@@ -10,7 +10,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: normal 400 1rem var(--font-hubot);
+  font: 400 1rem var(--font-inter);
   outline: none;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: normal 400 1rem var(--font-hubot);
+  font: 400 1rem var(--font-inter);
   outline: none;
   resize: none;
   width: 100%;

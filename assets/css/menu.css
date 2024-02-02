@@ -15,10 +15,10 @@
 
 .menu__link {
   color: inherit;
-  font: semi-condensed 500 1.125rem var(--font-hubot);
+  font: 400 .875rem var(--font-inter);
   position: relative;
   text-decoration: none;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .menu__link::after {

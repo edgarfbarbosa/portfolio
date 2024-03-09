@@ -10,7 +10,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: 400 1rem var(--font-inter);
+  font: 400 1rem var(--font-geist);
   outline: none;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-font);
-  font: 400 1rem var(--font-inter);
+  font: 400 1rem var(--font-geist);
   outline: none;
   resize: none;
   width: 100%;

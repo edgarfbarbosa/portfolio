@@ -21,12 +21,12 @@
 }
 
 .post__title {
-  color: var(--color-font);
-  font: 500 1.250rem var(--font-inter);
+  color: var(--color-black);
+  font: 500 1.250rem var(--font-geist);
   margin-bottom: 1rem;
 }
 
 .post__description {
   color: var(--color-font);
-  font: normal 400 1rem var(--font-inter);
+  font: normal 400 1rem var(--font-geist);
 }

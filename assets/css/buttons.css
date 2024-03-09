@@ -1,16 +1,16 @@
 .btn {
-  border: thin solid var(--color-font);
+  border: thin solid var(--color-black);
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
 }
 
 .btn__span {
-  background-color: var(--color-font);
+  background-color: var(--color-black);
   bottom: 4px;
   color: var(--color-bg);
   display: block;
-  font: 400 1rem var(--font-inter);
+  font: 400 1rem var(--font-geist);
   padding: .875rem 2.125rem;
   position: relative;
   right: 4px;

@@ -50,3 +50,8 @@ html, body {
   font: 400 1rem var(--font-geist);
   line-height: 1.625rem;
 }
+
+.title {
+  color: var(--color-black);
+  font: 500 1rem var(--font-geist);
+}

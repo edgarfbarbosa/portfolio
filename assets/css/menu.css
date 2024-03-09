@@ -1,26 +1,25 @@
 .menu__container {
   align-items: flex-end;
   display: flex;
-  gap: .875rem;
-  height: 15vh;
+  height: 10vh;
   justify-content: flex-start;
 }
 
 .menu__links-container {
   align-items: baseline;
   display: flex;
-  gap: .875rem;
+  gap: 1rem;
   list-style-type: none;
 }
 
 .menu__link {
   color: var(--color-black);
-  font: 400 1rem var(--font-geist);
+  font: 500 1rem var(--font-geist);
   position: relative;
   text-decoration: none;
   text-transform: lowercase;
 }
-
+/*
 .menu__link::after {
   background-color: hsla(0, 0%, 75%, 1);
   content: "";
@@ -52,7 +51,7 @@
   display: block;
   height: 2px;
 }
-
+*/
 .menu__btn-theme {
   background: transparent;
   border: none;
